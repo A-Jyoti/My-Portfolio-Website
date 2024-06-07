@@ -71,16 +71,16 @@ nav ul li {
 
 
 .home-content h1 {
-    text-shadow: 3px 1px#0511F2;
+    text-shadow: 3px 2px#0511F2;
     font-size: 5rem;
 }
 
 
 
 .here{
-    color: #020873;
+    color: red;
     font-size: 3rem;
-    text-shadow: 1px 0px 2px #545cff;
+    text-shadow: 2px 1px 0px rgb(238, 100, 100);
 }
 
 .A{
