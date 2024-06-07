@@ -1,3 +1,7 @@
+* {
+    
+}
+
 body {
     background-color: black;
 }
@@ -5,7 +9,7 @@ body {
 .header{
     margin: 0;
     padding: 0.5rem 5%;
-    position: fixed;
+    /* position: fixed; */
 }
 .container1{
     display: flex;
@@ -40,7 +44,6 @@ body {
 }
 .link:hover::after{
     width: 70%;
-    font-size: 25px;
 }
 
 nav ul li {
@@ -50,4 +53,8 @@ nav ul li {
     justify-content: space-between;
     padding: 0px 20px;
     list-style: none;
+}
+
+.enlarge {
+    font-size: 25px;
 }
