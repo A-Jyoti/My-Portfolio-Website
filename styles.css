@@ -73,6 +73,7 @@ nav ul li {
 .home-content h1 {
     text-shadow: 3px 2px#0511F2;
     font-size: 5rem;
+    font-family: "Yatra One", system-ui;
 }
 
 
@@ -86,5 +87,52 @@ nav ul li {
 .A{
     color: #8C1822;
     text-shadow: 3px 1px #D92B2B;
+    
+}
+
+.home-content *{
+    margin: 0;
+}
+
+.hello{
+    font-family: "Exo 2", sans-serif;
+    font-size: 3rem;
+}
+
+.home-content{
+    /* margin-top: 6%; */
+    margin-left: 7.3%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    /* align-items: left; */
+    /* gap: 40px; */
+    position: relative;
+}
+
+.home{
+    margin-top: 6%;
+    margin-left: 3%;
+    /* display: grid;
+    grid-template-columns: 1.3fr 1fr; */
+    display: flex;
+    /* flex-wrap: wrap; */
+    
+}
+
+.des{
+    font-size: 2.5rem;
+    font-family: "Orbitron", sans-serif;
+}
+
+.para1{
+    font-size: 1.2rem;
+    float: left;
+    font-family: "Exo 2", sans-serif;
+}
+
+.anim{
+    color: #A61C1C;
+    font-weight: "Orbitron", sans-serif;
     
 }
