@@ -3,7 +3,7 @@
 }
 
 body {
-    background-color: black;
+    background-color: black !important;
 }
 
 .header{
@@ -70,18 +70,18 @@ nav ul li {
 }
 
 .home{
-    margin-top: 6%;
-    margin-left: 3%;
+    margin-top: 0%;
+    /* margin-left: 3%; */
     /* display: grid;
     grid-template-columns: 1.3fr 1fr; */
     display: flex;
     /* flex-wrap: wrap; */
+    gap:0px;
     
 }
 
 .home-content h1 {
-    text-shadow: 3px 2px #D92B2B;#0511F2
-    font-size: 5rem;
+    text-shadow: 3px 2px #D92B2B;
     font-family: "Yatra One", system-ui;
     font-weight: 100;
 }
@@ -90,7 +90,7 @@ nav ul li {
 
 .here{
     color: red;
-    font-size: 3rem;
+    font-size: 1.5rem;
     text-shadow: 2px 1px 0px rgb(238, 100, 100);
 }
 
@@ -107,16 +107,16 @@ nav ul li {
 
 .hello{
     font-family: "Exo 2", sans-serif;
-    font-size: 3rem;
+    font-size: 2rem;
     margin: 0;
 }
 
 .home-content{
     /* margin-top: 6%; */
-    margin-left: 7.3%;
+    margin-left: 6%;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: space-evenly;
     /* align-items: left; */
     /* gap: 40px; */
     position: relative;
@@ -125,7 +125,7 @@ nav ul li {
 
 
 .des{
-    font-size: 2.5rem;
+    font-size: 2rem;
     font-family: "Orbitron", sans-serif;
 }
 
@@ -139,4 +139,31 @@ nav ul li {
     color: #A61C1C;
     font-weight: "Orbitron", sans-serif;
     
+}
+
+.name{
+    font-size: 3rem;
+}
+
+.portfolio{
+    /* display: flex !important;
+    flex-direction: row !important;
+    flex-wrap: wrap !important; */
+}
+
+.works{
+    display: flex !important;
+    flex-direction: row !important;
+    justify-content: space-around;
+}
+
+.card a{
+    background-color: #8a010c !important;
+    border: #A61C1C solid !important;
+}
+
+.head1{
+    margin-left: 6%;
+    margin-top: 3%;
+    color: #D92B2B;
 }
