@@ -1,5 +1,10 @@
 * {
     color: white;
+    margin: 0;
+}
+
+html{
+    scroll-behavior:smooth;
 }
 
 body {
@@ -9,6 +14,7 @@ body {
 .header{
     margin: 0;
     padding: 0.5rem 5%;
+    background-color: black;
     /* position: fixed; */
 }
 .container1{
@@ -64,6 +70,17 @@ nav ul li {
     padding: 0px 20px;
     list-style: none;
 }
+
+.txt{
+    color: black;
+}
+
+.card-color{
+    background-color: #ff6666e8 !important;
+    padding-top: 8px !important;
+}
+
+@media(){}
 
 .enlarge {
     font-size: 22px;
@@ -166,4 +183,108 @@ nav ul li {
     margin-left: 6%;
     margin-top: 3%;
     color: #D92B2B;
+}
+
+
+.img-work{
+    height: 170px !important;
+    width: 260px !important;
+}
+
+
+
+
+/* contact me page */
+
+.contact-section {
+    background-color: black;
+    padding: 50px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.contact-container {
+    max-width: 600px;
+    width: 100%;
+    padding: 20px;
+    border-radius: 8px;
+    background-color: #1c1c1c;
+}
+
+.contact-section h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: red;
+}
+
+.contact-section p {
+    font-size: 18px;
+    margin-bottom: 30px;
+    color: #ccc;
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    display: block;
+    font-size: 16px;
+    margin-bottom: 8px;
+    color: #ccc;
+}
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 2px solid #333;
+    border-radius: 4px;
+    background-color: #333;
+    color: #fff;
+}
+
+.form-group input:focus,
+.form-group textarea:focus {
+    border-color: red;
+    outline: none;
+}
+
+.submit-btn {
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    font-size: 18px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.submit-btn:hover {
+    background-color: darkred;
+}
+
+/* Responsive */
+@media screen and (max-width: 768px) {
+    .contact-container {
+        padding: 15px;
+    }
+
+    .contact-section h2 {
+        font-size: 28px;
+    }
+
+    .contact-section p {
+        font-size: 16px;
+    }
 }
